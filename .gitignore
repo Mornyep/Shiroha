@@ -1,0 +1,28 @@
+# Generated build products
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+app/build/
+*.app/
+*.dSYM/
+*.zip
+xcuserdata/
+*.xcuserstate
+# Local credentials and runtime records
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.mobileprovision
+/library.json
+/sessions.json
+/Logs/
+/Backups/
+/Reports/
+/Artwork/
+/MetadataHistory/
+.mdo/
+evidence/
+release/

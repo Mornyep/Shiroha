@@ -1,0 +1,446 @@
+{
+  "release": "0.14.0",
+  "root": "Shiroha/ in Shiroha-0.14.0-source.zip",
+  "software_license": "MIT",
+  "attribution": "Copyright (c) 2026 VNLauncher contributors",
+  "self_exclusion": "RELEASE-FILES.json is MIT; it omits its own hash to avoid recursion and is bound by the source ZIP checksum.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "de170c376bbee4f215c8902b1b1304f84c1ec12da6e9f2cdcbc3d625988b7589",
+      "license": "MIT"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "c650c4f1ec70b1e57b97954f3403250a01705c9756a7f369bf9d6bea0491c553",
+      "license": "MIT"
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "sha256": "35deee94c64581852f8316047b2a3c7c2b895b8d18ac6c04a6ee2e1688ed59ce",
+      "license": "MIT"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "6e27e6f4bc1b79e3242c5420a9a914a72eab1ce472a9c11533af13877ad3b8ce",
+      "license": "MIT"
+    },
+    {
+      "path": "LICENSE-SCOPE.md",
+      "sha256": "741a8adaecd5e8d534a6ec0cb7b2a87df883e003c4476b24e671b00fe4b685b2",
+      "license": "MIT"
+    },
+    {
+      "path": "NAMING.md",
+      "sha256": "0feb5f30168adc815a94d185b77422fba8b27227c0100ad3a2303dfb3589ac3f",
+      "license": "MIT"
+    },
+    {
+      "path": "PUBLISHING.md",
+      "sha256": "1910f86e018d1667ce3a14eda8c90ab5d4fea38df4870b99bd21db1bd1c0f859",
+      "license": "MIT"
+    },
+    {
+      "path": "README.md",
+      "sha256": "3752bfff136b0d76d58817b73dac4d7a9c9820e2df29f1ac5a48821ab522f7b3",
+      "license": "MIT"
+    },
+    {
+      "path": "RELEASE-NOTES.md",
+      "sha256": "8f364d2ac4d59493a7344ef4f5095f6b9b804abd28d011590b24d5faf82a4608",
+      "license": "MIT"
+    },
+    {
+      "path": "app/.swift-format",
+      "sha256": "5ecc625d40e8bfc862fe53d525f4d8b7ff41704dd85b4541edc967f6667db994",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Artwork/AppIcon.png",
+      "sha256": "589269193d3f3b6633faaa06e6484516c89a4081df2e9d4e27319d2bb483c324",
+      "license": "Artwork-excluded-from-MIT"
+    },
+    {
+      "path": "app/Artwork/NOTICE.md",
+      "sha256": "14ff6f6a9e94c1eb19cd92ac104dcc0bd81b0a21acccfb5d8c88e4d5f2d717b3",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Package.swift",
+      "sha256": "e8558443e9810a3f5d8e5aa99b4a37bbb3b0c98b0a14140cf854e8af0be161ec",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/Advisor.swift",
+      "sha256": "d73d0de5b59af77815941ea6135af42ebbc53e05d77241f8a84850cc576bf891",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/Analysis.swift",
+      "sha256": "affc186c5574ed8de738a7b0d45a6ff6b8e97e74776344cb93418833d1c9988d",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/ArtworkQuality.swift",
+      "sha256": "8b3067bc8456bcfc6980b2c574e758d547d16d0edab42978396353a426ba61ca",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/ArtworkSelection.swift",
+      "sha256": "1ae21cbc9c99318934075beb1216233a49fcb5f6eb36b42b7f7de33926bfc6b8",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/Backup.swift",
+      "sha256": "d9404ed6c48039bb08ccd67adada6390366b9b7765a69646f0440b741ce66b3b",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/CodexAdvisor.swift",
+      "sha256": "94454c230e19903af3118b39c87b05bffea78e4eb5b87f6e98b05bd8a98a1764",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/ComponentInstall.swift",
+      "sha256": "6f2ff7ccce61204e0eecbee16104d1f03563260b319c6104589fbf20d5a67af3",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/CrossOver.swift",
+      "sha256": "aa6ec20f75b406b1a7694f52fb428dab2cc3c32b91aeff20ba9378c434ac2a2b",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/FileSafety.swift",
+      "sha256": "ce18d1b44e81cec067cf223a552ac82cc080f7dc6e424283d42827d7e2557e21",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/GameConfiguration.swift",
+      "sha256": "3356e28b01d1d9d1b0748234f21129da87a924feb54823ee5c9aa674b2842a25",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/GuidePlan.swift",
+      "sha256": "5c18b9dff0d109ef1ed7841729e5bdf01fa75b21f369612efbf9a98ade799f46",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/LauncherLogs.swift",
+      "sha256": "44e025a6f4ecdfaf48262cacc64cca34df882dfc0681956f85d605934281e786",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/LibraryMerge.swift",
+      "sha256": "8b33bf19e3954ad5ca4b1dbb9b26d09270cdf788d2375b88ed704e51311a18c4",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/LibraryOrdering.swift",
+      "sha256": "308cc7f04f0c90ba4804cc36dcaf50ecc04f4a4d4a3eaf6d05874216b3a224b4",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/LibraryTransfer.swift",
+      "sha256": "0074d26f8815d6632bf0ff20f85680954635e08672788203ece8ad9002d98c38",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/LocalizedMetadata.swift",
+      "sha256": "e3fc9ab8491c764fda26ce3ca4440e01dc631afd2bc4311301cfeb83327669c4",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/Metadata.swift",
+      "sha256": "e6233dd6d696b1d4c7302a773e93b9d6cd0f69ba907435eff465c09fec263016",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/MetadataEditing.swift",
+      "sha256": "5a7b0bc1d4a9bb8d3746605aac9863b9949724abcb5f44adfc024132fd375da5",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/Models.swift",
+      "sha256": "8875489152276c170085d314c65ad50a0f5fec4bd1fef7f46844955c9c9605ac",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/PE.swift",
+      "sha256": "ea33c4bb8645ebfd1cb3e402375ad2ea661e63d1b28adf21be37f7de23cd89bd",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/PersonalLibrary.swift",
+      "sha256": "a2bfc173445284b0d8e624580f7d1f7e5deaa5f353666464fa64ac2d8ba4bbd0",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/PlayProgress.swift",
+      "sha256": "34cecf2b90463b19d3c6e1558a445f7f2dfc5c4db7f8458d1ee8b63c159d14bd",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/PublicSources.swift",
+      "sha256": "bdd49d4fa7c123883b8e21ea21645bff7af8483110f2fac686c529ca15d92b7f",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/RepairPlan.swift",
+      "sha256": "70de0c6bfc705df3f0351cbc80cdbb3ee5ab0cc91bc151bb60372546210f7b90",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/Reviews.swift",
+      "sha256": "040f421bd75362de1983d16a1a078745292d9fa1b4efb01181f46927a836e23a",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/SaveAdvisor.swift",
+      "sha256": "0681694055979ae34a4e7490c29c6a5e7813d439c0438049a48bfd468ca65649",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/SaveSnapshot.swift",
+      "sha256": "ce18059f560af264f01463b7deff0680b14b366efa461ad19c004865bc0bd33e",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/SteamLibraries.swift",
+      "sha256": "b8d2f4b792f500c2b4db02d24d256550f8f40bbfbca620bd54bae234ed66570e",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNCore/StorageManagement.swift",
+      "sha256": "24e58ae2c0a19b9363f7e8ade64e4723b7b931a7229d73ec2feea534a07653a0",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNInspect/main.swift",
+      "sha256": "41c5d3d9ec3937770da98086127d608cfcea616fa5e2a3969fd883aa1bb17856",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/ArtworkStudio.swift",
+      "sha256": "a50a8a604193e77293a0eab50c5ff4d92094c861c31c874d693a014b944449c8",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/BookmarkView.swift",
+      "sha256": "ba43e783c51a9735fc2fa4ac4c072aa1c641ba347e988d77ca7a2ddefa21dc55",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/CollectionsView.swift",
+      "sha256": "92175503890113ab35f5db46a41c68877dde32104b45c8a7dabbb5a03455cf39",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/GameCase.swift",
+      "sha256": "e775e293759aeeb790e91c7fdf114ecc0fa85abc558b4e0a0a47e47a1ab113b6",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/GameConfigurationStore.swift",
+      "sha256": "d6b5d1959892fcc7bd4e48230f59419b29a9583e7c0f71626ec7171b3f1c66a6",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/GuidePlanView.swift",
+      "sha256": "ec972b1b4ee9800bc15ad32d3c90f95fdee176e7c774eafb4b41795f2fdfcfd4",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/GuideSourcesView.swift",
+      "sha256": "4b09a87082c798410d1bb3a3c10c0ac76063950e81da757da5e679a5199b68ad",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/LibraryMotion.swift",
+      "sha256": "132e2915f6fb31c4d2010bf1262d9fa0cef776737d5f3727b803b3b7f40cee8c",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/LibraryOrganization.swift",
+      "sha256": "4be296329103b942c3d5c3b017e1067a1406da5a50eace52a882a884d0c2bc77",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/LibraryStore.swift",
+      "sha256": "94a07f7ee6fea5332f26e14e514d961e732c7563220b46e2926c2b968395cde3",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/LibraryTransferView.swift",
+      "sha256": "0b872efd32e3da18617364098ea1cccc4a0469935e6cc76494b3fb377ffb03e9",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/LibraryView.swift",
+      "sha256": "dcead96bd30b5e18a314ee9d122d400257267acaa2c00a5716d2ad83c4a9f7b5",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/LogManagementView.swift",
+      "sha256": "4c775c6b1fd8a7a9352fcd0afb3ab943581722e34178cfac80571291db62ffb9",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/MetadataEditor.swift",
+      "sha256": "3bc5415561f50296654ffc066866722b63c0fbc41bd370426507f7c7b9689be8",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/PanelStyle.swift",
+      "sha256": "9b30d6e6f47259580bc38f9ae028013a40e85cd34f5e9ba5c63cc998532e0751",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/Panels.swift",
+      "sha256": "7149429a42ba8f939089b48f8abd1ef5c9445719f18d5575fb70b9f67f9ef3a2",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/PersonalLibraryStore.swift",
+      "sha256": "a87446fc847ef0c767a74fc14822df3e177b3c459f4d2c7174d299a2fdc3f7b5",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/PosterPalette.swift",
+      "sha256": "1c422b217a858cb449a5140d5acaa19c0285c85ab4369d4fa66f226ac0838205",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/ProgressStore.swift",
+      "sha256": "9d2f63682d5321a8041cbc917e8dac25968c88dd6bc43bdf93c279a0640ee1fb",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/ProgressView.swift",
+      "sha256": "2ea014f2968c690ae1a8b5074e209f9a3ac4fb7eadecceb7b2c01a09c4b4ce56",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/PublicSourcesView.swift",
+      "sha256": "ef5127bd4e189ee1db1793f26f1489b5d01a8e62d614c5ec9078d603af01666e",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/SettingsView.swift",
+      "sha256": "9b8194e69b2ede222ec964557a14ff28e1bb232563de9eba53e2c5b0b553a02f",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/SteamReviewsView.swift",
+      "sha256": "f96ddb4bd74720660dc284c768873db9d3c4469ea456f67ae5d5428758fc7ed5",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/StorageView.swift",
+      "sha256": "805edaac2eaba16c803c9e12ea04134884ecf5e334f193df47d47ac55166f69c",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/StoryDetailView.swift",
+      "sha256": "bdc9acd5dc5cb4f7b8c34dec72f6910dcf0e2fcd308ade32dfc704bce851b917",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Sources/VNLauncher/VNLauncherApp.swift",
+      "sha256": "7d2b5769f31d871253a42025a581aea203a4783c20ccb354273848d2876b1bec",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Tests/VNCoreTests/ArtworkV06Tests.swift",
+      "sha256": "955f13e0e534e7189cf02d4b85a7154e325615ecc6dd7250ba8ed97fa4fa1fdb",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Tests/VNCoreTests/AuditV14Tests.swift",
+      "sha256": "a59d83c3e88174bad82cb2a8c3d82472980019a546949386e25b4cf91602cb97",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Tests/VNCoreTests/CoreTests.swift",
+      "sha256": "a7d6880770a562156741c0bfdc8a91ae5b7930cb6b88f4dc4130bcc0449bf413",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Tests/VNCoreTests/GuideLibraryV14Tests.swift",
+      "sha256": "1fad7f0ae4236262ebb533ea9830b040a3ebd4b58f0d675eb1acd61f8f64f3ad",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Tests/VNCoreTests/LibraryTransferV07Tests.swift",
+      "sha256": "4e14f9c4de744fad9adc7f706261f81eac77d897cebffc2d25734e03baf0eae7",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Tests/VNCoreTests/LocalMaintenanceV14Tests.swift",
+      "sha256": "e0ae7c25163405c7eddd3ffb63673101f3831aed2bcff8e4fefd72cb5a1ded7e",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Tests/VNCoreTests/MetadataV03Tests.swift",
+      "sha256": "a98c531f65c6503ce9bfcbdd36f5624554ff41744347e88bf424477ccfb44343",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Tests/VNCoreTests/MetadataV07Tests.swift",
+      "sha256": "3dc32163a573db89b4fdbf954b90a843a78575041b5ea7818340dc2f8375b3e9",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Tests/VNCoreTests/PersonalLibraryV11Tests.swift",
+      "sha256": "67dd567fba23d6bb8e7b5a4a712d1f954acbcba548a46704884aef37959f60f0",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Tests/VNCoreTests/ProgressV12Tests.swift",
+      "sha256": "595ac58ef127773bcc35fdc76c8e6ba65fd69b97e9693bc97b4a0799c0b21d7f",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Tests/VNCoreTests/PublicSourcesTests.swift",
+      "sha256": "8ad498d3c338c85e4fd1290ac6881936865d584470797976679696cef87304e7",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Tests/VNCoreTests/RepairV03Tests.swift",
+      "sha256": "47d762fee1033c2ca1a566533e79000ef979609cca8b9f80ced149c1d658cbda",
+      "license": "MIT"
+    },
+    {
+      "path": "app/Tests/VNCoreTests/StorageV04Tests.swift",
+      "sha256": "d74116e4f7877f1b566044e511e89a0ed4fd2e54784b5011f4d404d4546e4f2e",
+      "license": "MIT"
+    },
+    {
+      "path": "app/scripts/GenerateUIFixtures.swift",
+      "sha256": "2fd8740acba9a381ca5aad61acc00b08249671c4d46e71b5e9d71b900531136a",
+      "license": "MIT"
+    },
+    {
+      "path": "app/scripts/build.sh",
+      "sha256": "cace2f332d6547a0b4cfdbfd22d49f16284c73f436748cd78291db9321926741",
+      "license": "MIT"
+    },
+    {
+      "path": "app/scripts/make-icon.sh",
+      "sha256": "ead711a63460f862f56a7d23c37d9218b670d64e83ff93a3c5397d526fad0c42",
+      "license": "MIT"
+    },
+    {
+      "path": "app/scripts/test.sh",
+      "sha256": "64f670774f7d6d9f97935d97bbd64a8d89e96300230cf14283d0aea00282b1a9",
+      "license": "MIT"
+    }
+  ],
+  "generated_artwork_exclusions": [
+    {
+      "path": "白羽 Shiroha.app/Contents/Resources/AppIcon.icns",
+      "sha256": "c2a355a9bd28d700545e6b5caad5c6dc57f2efb239f3dc127e46bdcd5dc36755",
+      "license": "Artwork-excluded-from-MIT"
+    }
+  ]
+}
