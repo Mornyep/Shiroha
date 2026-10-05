@@ -4,7 +4,7 @@
 
 A native macOS visual novel library and launcher for your existing CrossOver installation, with local diagnostics, bookmarks, and manually curated guides.
 
-当前版本 **0.14.0（预发布准备中）**。原名 VNLauncher，英文短名 Shiroha；已完成显示层改名，已集成用户批准的 Q 版同人图标，已获用户本次发布批准；素材不纳入 MIT，角色权利仍归各自权利人。没有可用的公开下载地址；最终发布前须完成 [发布核对](PUBLISHING.md)。
+当前版本 **0.14.0（已公开预发布）**。原名 VNLauncher，英文短名 Shiroha；已完成显示层改名，已集成用户批准的 Q 版同人图标，已获用户本次发布批准；素材不纳入 MIT，角色权利仍归各自权利人。下载与完整说明见 [v0.14.0 Release](https://github.com/Mornyep/Shiroha/releases/tag/v0.14.0)。标签与源码附件保留本次审核时的文件快照，部分准备文档使用发布前措辞；实际发布状态以 Release 为准。
 
 ## 已有功能
 
@@ -25,7 +25,7 @@ A native macOS visual novel library and launcher for your existing CrossOver ins
 
 ## 安装与首次打开
 
-正式提供下载后，从确认的仓库 Release 下载对应 CPU 的 ZIP，对照随包 SHA-256，再解压并将「白羽 Shiroha.app」移到「应用程序」或个人 Applications 目录。升级旧 VNLauncher 时先退出旧应用、保留旧副本，再放入新应用；两者共用资料位置，不要同时编辑同一游戏库。本地新候选包为 `Shiroha-0.14.0-arm64.zip`；旧 `app/build/VNLauncher.zip` 保留回滚，不应上传。
+从 [v0.14.0 Release](https://github.com/Mornyep/Shiroha/releases/tag/v0.14.0) 下载对应 CPU 的 ZIP，对照随包 SHA-256，再解压并将「白羽 Shiroha.app」移到「应用程序」或个人 Applications 目录。升级旧 VNLauncher 时先退出旧应用、保留旧副本，再放入新应用；两者共用资料位置，不要同时编辑同一游戏库。本地新候选包为 `Shiroha-0.14.0-arm64.zip`；旧 `app/build/VNLauncher.zip` 保留回滚，不应上传。
 
 现有包为 ad-hoc 签名，无 Developer ID 和公证。若 macOS 提示开发者无法验证，先核实来源与完整性；确认可信后，可在尝试打开后进入「系统设置 → 隐私与安全 → 仍要打开」为该应用单独确认。若提示损坏或恶意软件，停止运行并核对发布者与文件。无需关闭 Gatekeeper、SIP 或批量清除 quarantine。详见 [Apple 官方说明](https://support.apple.com/en-us/102445)。
 
