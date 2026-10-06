@@ -4,7 +4,7 @@
 
 <h1 align="center">白羽 Shiroha</h1>
 
-<p align="center">在 Mac 上整理和启动你的 Galgame。</p>
+<p align="center">Mac 都买了，Galgame 也得玩吧。</p>
 <p align="center">A native macOS visual novel manager and CrossOver launcher.</p>
 
 <p align="center">
@@ -13,9 +13,13 @@
   <a href="CHANGELOG.md">更新记录</a>
 </p>
 
-白羽是一个用 SwiftUI 编写的 macOS 视觉小说管理器。把游戏放进书架，补全封面和介绍，选好 CrossOver 容器，下次就可以直接从这里启动。
+话说，想在 Mac 上推个 Gal，怎么先开始找入口、挑容器、翻文件夹了。
 
-名字取自《Summer Pockets》中的鸣濑白羽。目前仍在开发中，欢迎试用和反馈。
+所以我做了白羽。把游戏收进书架，封面、资料、启动配置和手动书签放在一起。不然本来想推剧情，结果先在文件夹里推理半天。
+
+现在运行 Windows 游戏主要还是靠 CrossOver。至于兼容性，当然不会因为图标可爱就自己变好，后续会继续做 GalBridge，把适合视觉小说的检测和运行方案慢慢补起来。
+
+名字取自我最喜欢的《Summer Pockets》女主鸣濑白羽。是的，取名这里夹带了一点私货。
 
 ## 功能
 
