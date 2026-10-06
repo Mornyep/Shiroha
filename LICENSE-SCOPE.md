@@ -4,7 +4,7 @@
 
 白羽 Shiroha 0.14.0 的原创源码、测试、构建脚本、原创文档及由这些源码构建的编译软件采用标准 MIT License；完整条款见 LICENSE，署名保留为 Copyright (c) 2026 VNLauncher contributors。MIT 原文未增加非商业、禁止再分发、众筹或未来版本限制。
 
-本次源码发布的精确范围由源码包根目录 RELEASE-FILES.json 列出路径、SHA-256 和许可类别。路径以 Shiroha-0.14.0-source.zip 内的 Shiroha/ 为根，不表示开发工作目录及私人审计全部公开。清单包含本次全部文件，但为避免自引用不记录清单自身；清单本身为 MIT，最终源码 ZIP 的 SHA-256 将其内容一并绑定。附件 Shiroha-SHA256SUMS.txt 分别绑定源码与应用 ZIP。
+本次源码发布的精确范围由源码包根目录 RELEASE-FILES.json 列出路径、SHA-256 和许可类别。路径以 Shiroha-0.14.0-source.zip 内的 Shiroha/ 为根；它记录 v0.14.0 源码附件的固定快照，不是 main 分支的实时文件清单。清单包含本次全部文件，但为避免自引用不记录清单自身；清单本身为 MIT，最终源码 ZIP 的 SHA-256 将其内容一并绑定。附件 Shiroha-SHA256SUMS.txt 分别绑定源码与应用 ZIP。
 
 ## 独立素材与第三方内容
 

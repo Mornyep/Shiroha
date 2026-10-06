@@ -1,5 +1,6 @@
 {
   "release": "0.14.0",
+  "scope": "Immutable v0.14.0 source ZIP snapshot; not a live inventory of the main branch. Listed hashes refer to the ZIP contents.",
   "root": "Shiroha/ in Shiroha-0.14.0-source.zip",
   "software_license": "MIT",
   "attribution": "Copyright (c) 2026 VNLauncher contributors",

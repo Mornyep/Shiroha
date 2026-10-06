@@ -1,19 +1,35 @@
-# 白羽 Shiroha 0.14.0 · 公开预发布草稿
+# 白羽 Shiroha 0.14.0
 
-原名 VNLauncher。原生 macOS 视觉小说收藏库与启动器，复用已有 CrossOver；用大封面浏览作品，并整理书签、手动攻略和本地兼容性分析。
+首个公开预览版。用书架整理 Galgame，通过已有的 CrossOver 启动游戏。
 
-本版增加多个命名书签、手动攻略节点、外部 Steam 库发现、日志管理及 VNDB Steam App ID 查询，改善长标题和详情页阅读，并修复备份复核及编辑冲突。发布准备加入获批准的 Q 版同人图标、显示名「白羽 Shiroha」及分发包路径清理。
+## 这版有什么
 
-- 应用：白羽 Shiroha.app；英文短名 Shiroha；内部标识和资料路径保持 VNLauncher 兼容。
-- 版本：0.14.0 / build 14，拟用 tag v0.14.0（未创建）。
-- 平台：arm64 / Apple Silicon；部署目标 macOS 14.0+。实际验证 macOS 27.2，Intel 与旧 macOS 实机未验证。
-- 外部依赖：自行准备合法 CrossOver、游戏与容器；均不随包提供。AI 可选。
-- 签名：ad-hoc，无 Developer ID、公证、远端 CI 或干净机器 Gatekeeper 验收。
-- 验证：88 项测试通过，显示改名后源码/测试逐文件未变，复用匹配证据；新包构建、解压严格签名、路径扫描通过。Finder 实际显示新名称、图标、版本及 Apple 芯片类型。此前同代码空库隔离启动 8 秒通过；不声称已验证游戏兼容性。
-- 限制：自动章名、完整攻略、真实存读档、真实组件安装/回滚和外部 Steam 盘全链路尚未完成。Dock 图标未做独立验证。
+- 多个命名书签、手动攻略节点、前置条件和完成状态。
+- 外部 Steam 库发现、启动日志管理、VNDB Steam App ID 查询。
+- 改善详情页、长标题和不同窗口尺寸下的显示。
+- 修复备份校验、书签迁移、过期扫描结果和编辑冲突。
+- 应用更名为「白羽 Shiroha」，加入新图标；沿用 VNLauncher 的资料目录。
 
-附件候选：Shiroha-0.14.0-arm64.zip、Shiroha-0.14.0-source.zip、Shiroha-SHA256SUMS.txt。计划目标 **Mornyep/Shiroha · public · pre-release**，尚未建立仓库、提交、上传或发布。
+## 下载
 
-当前 0.14.0 原创源码、文档及编译软件采用标准 MIT，保留 VNLauncher contributors 署名。已授出的 MIT 权利持续有效；未来新创作且尚未发布的功能可以另定条款，不追溯限制当前版本。角色图标及第三方内容独立于 MIT，无官方关联或背书。许可、范围与逐文件 SHA-256 随包提供；用户已批准本次公开发布；该批准不构成角色权利人的授权或 MIT 图像再许可。
+[前往 v0.14.0 发布页](https://github.com/Mornyep/Shiroha/releases/tag/v0.14.0)。
 
-后续方向（未实现）：优先研究 GalBridge 视觉小说兼容路线、Windows 兼容层与引擎后端接入、基于证据的后端匹配、组件/插件诊断与逐游戏验证。安装始终单独确认；GPTK 为可选研究路径，Godot 原生重建保留为远期选项。自动存档/章节映射仍待研究，不作期限或众筹回报承诺。详见 README 路线图。
+- `Shiroha-0.14.0-arm64.zip`：Apple Silicon 应用包。
+- `Shiroha-0.14.0-source.zip`：本版源码快照。
+- `Shiroha-SHA256SUMS.txt`：上述两个压缩包的 SHA-256 校验值。
+
+需要 macOS 14 或更新版本，以及自行安装的 CrossOver、游戏和容器。当前仅提供 arm64 包；实际验证环境为 macOS 27.2，Intel 和 macOS 14/15 未实机验证。
+
+应用使用 ad-hoc 签名，尚无 Developer ID 签名和 Apple 公证。首次打开方法见 [README](https://github.com/Mornyep/Shiroha#readme)。
+
+## 已知限制
+
+书签与攻略仍需手动整理，不支持自动章节识别或存读档同步。真实游戏的声音、视频、输入和存读档尚未全面测试；组件安装与回滚、外部 Steam 库完整流程也仍需实测。备份前请停止游戏写入。
+
+本版通过 88 项单元测试、构建及签名校验，这不代表所有游戏都兼容。
+
+## 许可
+
+原创源码、文档与编译软件采用 [MIT License](https://github.com/Mornyep/Shiroha/blob/main/LICENSE)。图标为 AI 生成的鸣濑白羽同人插画，排除于 MIT，角色权利归各自权利人，本项目与官方无关联。详见 [许可范围](https://github.com/Mornyep/Shiroha/blob/main/LICENSE-SCOPE.md) 与 [图标说明](https://github.com/Mornyep/Shiroha/blob/main/app/Artwork/NOTICE.md)。
+
+发布附件与 v0.14.0 标签保留本版快照；main 上的文档会继续更新。`RELEASE-FILES.json` 记录源码附件的文件与哈希，不是 main 的实时清单。
