@@ -1,5 +1,9 @@
 # 白羽 Shiroha 0.14.0
 
+[中文](RELEASE-NOTES.md) · [English](RELEASE-NOTES.en.md) · [日本語](RELEASE-NOTES.ja.md) · [한국어](RELEASE-NOTES.ko.md)
+
+[说明与安装](README.md) · [发布说明](RELEASE-NOTES.md) · [下一版预告](UPDATE-PREVIEW.zh-CN.md) · [更新记录](CHANGELOG.md) · [排错与贡献](README.md#help)
+
 首个公开预览版。用书架整理 Galgame，通过已有的 CrossOver 启动游戏。
 
 ## 这版有什么
@@ -33,3 +37,4 @@
 原创源码、文档与编译软件采用 [MIT License](https://github.com/Mornyep/Shiroha/blob/main/LICENSE)。图标为 AI 生成的鸣濑白羽同人插画，排除于 MIT，角色权利归各自权利人，本项目与官方无关联。详见 [许可范围](https://github.com/Mornyep/Shiroha/blob/main/LICENSE-SCOPE.md) 与 [图标说明](https://github.com/Mornyep/Shiroha/blob/main/app/Artwork/NOTICE.md)。
 
 发布附件与 v0.14.0 标签保留本版快照；main 上的文档会继续更新。`RELEASE-FILES.json` 记录源码附件的文件与哈希，不是 main 的实时清单。
+

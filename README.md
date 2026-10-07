@@ -11,6 +11,8 @@
 
 日文、英文和韩文是文档语言；应用界面目前仍以中文为主。
 
+[说明与安装](README.md) · [发布说明](RELEASE-NOTES.md) · [下一版预告](UPDATE-PREVIEW.zh-CN.md) · [更新记录](CHANGELOG.md) · [排错与贡献](README.md#help)
+
 <p align="center">
   <a href="https://github.com/Mornyep/Shiroha/releases/tag/v0.14.0">下载 v0.14.0 预览版</a> ·
   <a href="https://github.com/Mornyep/Shiroha/issues">问题反馈</a> ·
@@ -106,6 +108,21 @@ bash app/scripts/test.sh
 
 欢迎提交 Issue 或 Pull Request。报告启动问题时，请附上 macOS、CrossOver 版本和复现步骤；分享日志前记得移除个人路径、账户信息和密钥。
 
+<a id="help"></a>
+
+## 排错与参与
+
+先试这几步，别急着重装整个共通线：
+
+1. **找不到 CrossOver 或容器**：在设置里选择已安装的 CrossOver，再刷新容器。确认游戏对应的容器已在 CrossOver 中准备好。
+2. **游戏启动失败**：检查选中的 EXE、容器和启动参数；再从同一个 CrossOver 容器直接启动一次。记录两种方式的结果，便于区分游戏兼容性和启动配置问题。
+3. **匹配到错误作品**：重新选择 Steam、Bangumi 或 VNDB 条目，也可以手动编辑。不同版本和同名作品容易混淆，反馈时请附作品名与版本。
+4. **备份或恢复遇到问题**：先停止游戏写入，保留原存档和备份。恢复到新目录后检查结果，不要直接覆盖唯一一份存档。
+
+[反馈 Issue](https://github.com/Mornyep/Shiroha/issues)时，请写明白羽、macOS、CrossOver 版本、Mac 芯片、游戏版本、复现步骤、预期与实际结果。日志和截图先移除个人路径、账号、密钥和剧情剧透；不要上传游戏本体或整个存档文件夹。
+
+想参与的话，小修正、翻译和兼容性记录都欢迎。较大的功能改动可以先开 Issue 讨论范围。PR 里说明改了什么、怎么检查的、还有什么没验证；代码改动请运行上面的测试，文档改动请检查对应语言的链接。贡献只包含你有权提交的内容，保留现有许可与第三方署名，不要提交游戏资源、私密数据、密钥或本机生成的文件。四语文档方便大家阅读，并不表示提供专门的四语客服。
+
 ## 感谢
 
 - [Bangumi](https://bangumi.tv/) 和 [VNDB](https://vndb.org/) 提供的作品资料。
@@ -117,4 +134,5 @@ bash app/scripts/test.sh
 源码与文档采用 [MIT License](LICENSE)。详细范围及第三方归属见 [LICENSE-SCOPE.md](LICENSE-SCOPE.md) 和 [DEPENDENCIES.md](DEPENDENCIES.md)。
 
 图标为鸣濑白羽的非官方同人插画，不属于 MIT 授权范围。角色权利归各自权利人，本项目与官方无关联。详见 [图标说明](app/Artwork/NOTICE.md)。
+
 

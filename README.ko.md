@@ -6,7 +6,9 @@
 
 [中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · 한국어
 
-[v0.14.0 프리뷰 다운로드](https://github.com/Mornyep/Shiroha/releases/tag/v0.14.0) · [문제 제보](https://github.com/Mornyep/Shiroha/issues) · [변경 내역](CHANGELOG.md)
+[소개·설치](README.ko.md) · [릴리스 노트](RELEASE-NOTES.ko.md) · [다음 업데이트](UPDATE-PREVIEW.ko.md) · [변경 내역](CHANGELOG.ko.md) · [문제 해결·기여](README.ko.md#help)
+
+[v0.14.0 프리뷰 다운로드](https://github.com/Mornyep/Shiroha/releases/tag/v0.14.0) · [문제 제보](https://github.com/Mornyep/Shiroha/issues) · [변경 내역](CHANGELOG.ko.md)
 
 Shiroha는 macOS용 비주얼 노벨 라이브러리이자 CrossOver 런처입니다. 게임, 표지, 작품 정보, 실행 설정, 수동 북마크를 책장 하나에 모아 둡니다. 오늘은 진짜 밀린 게임 좀 하려고 했는데, 실행 파일 찾다가 하루가 끝나는 건 좀 억울하잖아요.
 
@@ -80,6 +82,19 @@ bash app/scripts/test.sh
 
 로그와 스크린샷을 올리기 전에 개인 경로, 계정 정보, 키, 스포일러를 지워 주세요. 게임 파일이나 세이브 폴더 전체를 올릴 필요는 없습니다. 짧은 오류 메시지와 재현 순서면 시작하기에 충분합니다. Pull Request도 환영합니다.
 
+<a id="help"></a>
+
+## 문제 해결과 기여 안내
+
+공통 루트부터 다시 시작하기 전에, 이것부터 확인해 보세요.
+
+1. **CrossOver나 보틀이 안 보여요**: 설정에서 설치된 CrossOver를 선택하고 보틀 목록을 새로고침해 주세요. CrossOver에 게임용 보틀이 준비되어 있는지도 확인합니다.
+2. **게임이 실행되지 않아요**: EXE, 보틀, 실행 인수를 확인한 다음 같은 CrossOver 보틀에서 직접 실행해 보세요. 두 결과를 함께 알려 주면 실행 설정 문제와 게임 호환성 문제를 구분하기 쉽습니다.
+3. **다른 게임 정보가 나와요**: Steam·Bangumi·VNDB 항목을 다시 선택하거나 직접 편집해 주세요. 같은 이름의 작품이나 다른 에디션일 수 있으니 제보할 때 작품명과 버전도 적어 주세요.
+4. **백업이나 복원에 실패했어요**: 게임의 세이브 쓰기를 멈추고 원본과 백업을 모두 보관해 주세요. 새 폴더에 복원한 결과부터 확인하고, 유일한 세이브 사본을 바로 덮어쓰지 마세요.
+
+작은 수정, 번역, 호환성 제보도 환영합니다. 큰 변경은 먼저 [Issue](https://github.com/Mornyep/Shiroha/issues)에서 범위를 이야기해 주세요. PR에는 바뀐 점, 확인한 내용, 아직 검증하지 못한 부분을 적어 주세요. 코드를 바꿨다면 위 테스트를 실행하고, 문서를 바꿨다면 해당 언어의 링크를 확인해 주세요. 제출할 권리가 있는 내용만 포함하고 기존 라이선스와 제삼자 권리 표기를 유지해 주세요. 게임 리소스, 개인 정보, 키, 로컬에서 생성된 파일은 제출하지 마세요. 다국어 문서가 제공되지만 언어별 전담 고객 지원을 의미하지는 않습니다.
+
 ## 감사와 라이선스
 
 작품 정보를 제공하는 [Bangumi](https://bangumi.tv/), [VNDB](https://vndb.org/), [Steam](https://store.steampowered.com/), Windows 호환 환경을 제공하는 [CrossOver](https://www.codeweavers.com/crossover)에 감사드립니다.
@@ -87,3 +102,4 @@ bash app/scripts/test.sh
 프로젝트의 자체 소스 코드, 문서, 컴파일된 소프트웨어에는 [MIT License](LICENSE)가 적용됩니다. 적용 범위와 제삼자 권리는 [LICENSE-SCOPE.md](LICENSE-SCOPE.md), [DEPENDENCIES.md](DEPENDENCIES.md)를 확인해 주세요.
 
 아이콘은 나루세 시로하의 비공식 팬아트이며 **MIT 라이선스 적용 대상에서 제외**됩니다. 캐릭터 권리는 각 권리자에게 있으며, 이 프로젝트는 공식 제작사와 무관하고 공식 승인을 받은 프로젝트도 아닙니다. [이미지 권리 안내](app/Artwork/NOTICE.md)를 확인해 주세요. 게임, 이미지, 제삼자 데이터, 서비스, 상표에는 각각의 권리와 이용 조건이 적용됩니다.
+

@@ -6,7 +6,9 @@ Your backlog has enough routes. Finding the EXE shouldn't be another one.
 
 [中文](README.md) · English · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-[Download v0.14.0 preview](https://github.com/Mornyep/Shiroha/releases/tag/v0.14.0) · [Report an issue](https://github.com/Mornyep/Shiroha/issues) · [Changelog](CHANGELOG.md)
+[Readme & installation](README.en.md) · [Release notes](RELEASE-NOTES.en.md) · [Next update](UPDATE-PREVIEW.en.md) · [Changelog](CHANGELOG.en.md) · [Help & contributing](README.en.md#help)
+
+[Download v0.14.0 preview](https://github.com/Mornyep/Shiroha/releases/tag/v0.14.0) · [Report an issue](https://github.com/Mornyep/Shiroha/issues) · [Changelog](CHANGELOG.en.md)
 
 Shiroha is a native macOS visual novel library and CrossOver launcher. Keep your games, cover art, metadata, launch settings, and manual bookmarks on one shelf. You sat down to read a VN, not spend the evening unlocking the correct folder.
 
@@ -78,6 +80,19 @@ Please open an [issue](https://github.com/Mornyep/Shiroha/issues). Include the S
 
 Before sharing logs or screenshots, remove personal paths, account details, keys, and spoilers. Please don't upload game files or entire save folders. A short error message and reproducible steps are a good start. Pull requests are welcome too.
 
+<a id="help"></a>
+
+## Troubleshooting and contributing
+
+Before reinstalling the whole common route, try these:
+
+1. **CrossOver or bottles are missing:** select your installed CrossOver app in Settings and refresh the bottles. Check that the game's bottle is already set up in CrossOver.
+2. **A game won't launch:** check the selected EXE, bottle, and arguments, then try launching directly from the same CrossOver bottle. Include both results in a report; that helps separate launch configuration from game compatibility.
+3. **The wrong game was matched:** choose the correct Steam, Bangumi, or VNDB entry, or edit it manually. Include the title and edition in your report, especially for similarly named releases.
+4. **Backup or restore failed:** stop save writes and keep the original saves and backup. Inspect the restored files in their new folder before replacing anything. Don't overwrite your only copy.
+
+Small fixes, translations, and compatibility reports are welcome. For a larger change, open an [issue](https://github.com/Mornyep/Shiroha/issues) to discuss the scope first. In a PR, explain what changed, what you checked, and what remains untested. Run the tests above for code changes; check the corresponding language links for documentation changes. Submit only content you have the right to contribute, preserve licenses and third-party attribution, and leave out game assets, private data, secrets, and machine-generated files. Multilingual documentation doesn't imply a dedicated support team for each language.
+
 ## Thanks and licensing
 
 Thanks to [Bangumi](https://bangumi.tv/), [VNDB](https://vndb.org/), and [Steam](https://store.steampowered.com/) for game information, and [CrossOver](https://www.codeweavers.com/crossover) for the Windows compatibility environment.
@@ -85,3 +100,4 @@ Thanks to [Bangumi](https://bangumi.tv/), [VNDB](https://vndb.org/), and [Steam]
 Original source code, documentation, and compiled software are available under the [MIT License](LICENSE). See [LICENSE-SCOPE.md](LICENSE-SCOPE.md) and [DEPENDENCIES.md](DEPENDENCIES.md) for scope and third-party attribution.
 
 The unofficial Naruse Shiroha fan-art icon is **excluded from the MIT license**. Character rights belong to their respective holders, and this project has no official affiliation or endorsement. See the [artwork notice](app/Artwork/NOTICE.md). Games, artwork, third-party data, services, and trademarks retain their own rights and terms.
+

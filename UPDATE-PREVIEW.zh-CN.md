@@ -1,5 +1,9 @@
 # 白羽下一版：先把启动这条共通线走顺
 
+[中文](UPDATE-PREVIEW.zh-CN.md) · [English](UPDATE-PREVIEW.en.md) · [日本語](UPDATE-PREVIEW.ja.md) · [한국어](UPDATE-PREVIEW.ko.md)
+
+[说明与安装](README.md) · [发布说明](RELEASE-NOTES.md) · [下一版预告](UPDATE-PREVIEW.zh-CN.md) · [更新记录](CHANGELOG.md) · [排错与贡献](README.md#help)
+
 想推的是女主路线，结果先攻略了半晚上文件夹。白羽下一版，准备继续给这段「开场流程」减减负。
 
 这次主要在打磨几件日常用得上的事：
@@ -16,3 +20,4 @@
 Windows 游戏目前仍主要通过 CrossOver 运行。GalBridge 的独立兼容方案还在探索，没有已验证的商业游戏支持清单。游戏库、启动和本地诊断不需要 AI 账号；AI 摘要解释是可选项，请求前可预览要发送的内容。
 
 日文、英文和韩文说明现已补上，方便大家安装和反馈。这些是文档语言，应用界面目前仍以中文为主。
+

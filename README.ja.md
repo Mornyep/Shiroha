@@ -6,7 +6,9 @@
 
 [中文](README.md) · [English](README.en.md) · 日本語 · [한국어](README.ko.md)
 
-[v0.14.0 プレビュー版をダウンロード](https://github.com/Mornyep/Shiroha/releases/tag/v0.14.0) · [不具合の報告](https://github.com/Mornyep/Shiroha/issues) · [更新履歴](CHANGELOG.md)
+[紹介・インストール](README.ja.md) · [リリースノート](RELEASE-NOTES.ja.md) · [次の更新](UPDATE-PREVIEW.ja.md) · [更新履歴](CHANGELOG.ja.md) · [トラブル対処・参加](README.ja.md#help)
+
+[v0.14.0 プレビュー版をダウンロード](https://github.com/Mornyep/Shiroha/releases/tag/v0.14.0) · [不具合の報告](https://github.com/Mornyep/Shiroha/issues) · [更新履歴](CHANGELOG.ja.md)
 
 Shirohaは、Mac用のビジュアルノベル管理アプリ兼CrossOverランチャーです。ゲーム、ジャケット画像、作品情報、起動設定、手動のしおりをひとつの本棚にまとめます。「今日は積みゲーを崩すぞ」と意気込んだのに、フォルダ探しだけで夜が終わる。そんな寄り道を少し減らすために作りました。
 
@@ -80,6 +82,19 @@ bash app/scripts/test.sh
 
 ログやスクリーンショットからは、個人のパス・アカウント情報・キー・ネタバレを取り除いてください。ゲーム本体やセーブフォルダ一式のアップロードは不要です。まずは短いエラー文と再現手順から。Pull Requestも歓迎します。
 
+<a id="help"></a>
+
+## 困ったとき・開発に参加するとき
+
+共通ルートを最初からやり直す前に、まずはこちらを。
+
+1. **CrossOverやボトルが見つからない**：設定でインストール済みのCrossOverを選び、ボトル一覧を更新してください。ゲーム用のボトルがCrossOver側に用意されているかも確認します。
+2. **ゲームが起動しない**：実行ファイル・ボトル・起動引数を確認し、同じボトルからCrossOverで直接起動してみてください。両方の結果があると、起動設定とゲームの互換性を切り分けやすくなります。
+3. **別の作品が表示される**：Steam・Bangumi・VNDBの該当作品を選び直すか、手動で編集してください。同名作品や別エディションの場合は、作品名と版も添えて報告してください。
+4. **バックアップや復元に失敗する**：ゲームの書き込みを止め、元のセーブとバックアップを残してください。新しいフォルダへの復元結果を確認してから扱いを決め、唯一のコピーを上書きしないでください。
+
+小さな修正、翻訳、互換性の報告も歓迎します。大きな変更は、先に[Issue](https://github.com/Mornyep/Shiroha/issues)で内容を相談してください。PRには変更点、確認したこと、未検証の点を書いてください。コード変更では上記のテストを実行し、文書変更では各言語のリンクを確認します。提出する権利のある内容だけを含め、既存のライセンスと第三者の権利表記を保持してください。ゲーム素材、個人情報、キー、ローカルで生成されたファイルは含めないでください。多言語の案内はありますが、言語ごとの専任サポート窓口があるわけではありません。
+
 ## 謝辞とライセンス
 
 作品情報を提供する[Bangumi](https://bangumi.tv/)・[VNDB](https://vndb.org/)・[Steam](https://store.steampowered.com/)、Windows互換環境を提供する[CrossOver](https://www.codeweavers.com/crossover)に感謝します。
@@ -87,3 +102,4 @@ bash app/scripts/test.sh
 独自のソースコード・ドキュメント・コンパイル済みソフトウェアは[MIT License](LICENSE)で公開しています。範囲と第三者の権利については[LICENSE-SCOPE.md](LICENSE-SCOPE.md)・[DEPENDENCIES.md](DEPENDENCIES.md)を参照してください。
 
 アイコンは鳴瀬しろはの非公式ファンアートで、**MITの対象外**です。キャラクターの権利は各権利者に帰属し、本プロジェクトは公式とは無関係で、公式の承認を受けたものでもありません。[画像の権利表記](app/Artwork/NOTICE.md)をご確認ください。ゲーム・画像・第三者データ・サービス・商標には、それぞれの権利と利用条件が適用されます。
+
