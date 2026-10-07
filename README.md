@@ -7,6 +7,10 @@
 <p align="center">Mac 都买了，Galgame 也得玩吧。</p>
 <p align="center">A native macOS visual novel manager and CrossOver launcher.</p>
 
+<p align="center">中文 · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a></p>
+
+日文、英文和韩文是文档语言；应用界面目前仍以中文为主。
+
 <p align="center">
   <a href="https://github.com/Mornyep/Shiroha/releases/tag/v0.14.0">下载 v0.14.0 预览版</a> ·
   <a href="https://github.com/Mornyep/Shiroha/issues">问题反馈</a> ·
@@ -61,6 +65,14 @@
 - 组件安装与回滚、外部 Steam 库的完整流程还需要实测。
 - 备份前请先停止游戏写入；目前不支持对运行中的游戏做原子快照。
 
+## 下一版预告
+
+想推的是女主路线，结果先攻略了半晚上文件夹。下一版准备继续把启动这条「共通线」走顺：整理 CrossOver 默认设置、改进 Bangumi / VNDB 条目与评分匹配、打磨「喜欢」联动，再补上 Steam 时长 JSON 导入与本地计时。海报取色设置也会做减法，移除闲置的壁纸与盘面选项，保留已有图片和共用取色能力。
+
+这些还在未公开的候选版本里，界面操作和真实游戏计时仍待验证。Steam 时长指的是 JSON 文件导入，不是自动登录同步。**目前可下载的仍是 v0.14.0 公开预览版**，先不立发布日期 flag。[查看完整预告](UPDATE-PREVIEW.zh-CN.md)。
+
+路线和存档识别也在研究，从受限的 Ren'Py 脚本、原创样例存档与有限路径分析开始。目前不提供商业游戏结局识别、通用存档支持或实时剧情追踪。选项前该存的档，还是要存。
+
 ## 接下来想做
 
 - [ ] **GalBridge**：识别游戏和引擎，探索适合视觉小说的兼容层与引擎后端。
@@ -104,4 +116,5 @@ bash app/scripts/test.sh
 
 源码与文档采用 [MIT License](LICENSE)。详细范围及第三方归属见 [LICENSE-SCOPE.md](LICENSE-SCOPE.md) 和 [DEPENDENCIES.md](DEPENDENCIES.md)。
 
-图标是 AI 生成的鸣濑白羽同人插画，不属于 MIT 授权范围。角色权利归各自权利人，本项目与官方无关联。详见 [图标说明](app/Artwork/NOTICE.md)。
+图标为鸣濑白羽的非官方同人插画，不属于 MIT 授权范围。角色权利归各自权利人，本项目与官方无关联。详见 [图标说明](app/Artwork/NOTICE.md)。
+
